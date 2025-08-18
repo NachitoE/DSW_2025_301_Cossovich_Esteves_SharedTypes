@@ -8,5 +8,5 @@ export interface Bird {
 	description: string;
 	imageURL: string;
 	id: string;
-	visualTraits: BirdVisualTraitAssignment[];
+	visualTraits?: BirdVisualTraitAssignment[];
 }
